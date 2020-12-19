@@ -155,8 +155,8 @@ $(function() {
             ctx.textBaseline = "top";
             ctx.textAlign = "left";
             ctx.font = "bold 40px Raleway";
-            ctx.fillStyle = "#black";
-            ctx.fillText(name[0], 460, name[1]);
+            ctx.fillStyle = "#a556d1";
+            ctx.fillText(name[0], 420, name[1]);
 
             cb(canvas.toDataURL("image/jpeg", 1.0));
         }
