@@ -43,7 +43,7 @@ $(function() {
           <br>
           <center class="center-form"><b>
           Click the below copy button to copy and paste this text along with your generated Image on Social Platform<br>
-          </b><textarea id="inputco" style="margin: 0px; width: 350px; height: 70px;">I am attending GSSOSA 2014 SET REUNION 2020. #GSSOSA2014 #REUNION2020. Do not wait to be told the story. - Use https://abahtech.ng to Generate Your own I will there Image</textarea> 
+          </b><textarea id="inputco" style="margin: 0px; width: 350px; height: 70px;">I am attending GSSOSA 2014 SET REUNION 2020. #GSSOSA2014 #REUNION2020. Do not wait to be told the story. - Use https://gsso-reunion.netlify.app to Generate Your own I will there Image</textarea> 
           <br>
           <button id="copy-button">Copy Text</button> </center>
           <br>
