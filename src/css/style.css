@@ -1,0 +1,424 @@
+body{	
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), 
+rgba(0,0,0,.5)),url(../img/bg.jpg);
+  
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#gsslogo{
+	height: 30;
+	width: 90%;
+	background-color: purple;
+	padding: 10px;
+	font-size: 25px;
+	color: white;
+	border-radius: 10px;
+}
+.footer{
+	background-color: purple;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;	
+	width: 90%;
+	margin-top: 1300px;
+	height: 70px;			
+	margin-bottom: 20px;
+	font-weight: lighter;
+	border-radius: 10px;
+	font-style: bold;
+	
+}
+.footer a{
+	color: green;
+	text-decoration: none;
+	font-size: 15px;
+	font-style: bolder;
+	font-family: sans-serif;
+}
+.container_note{
+	color: white;
+	font-weight: bolder;
+	margin-left: 10px;
+	margin-top: 60px;
+	border: solid;
+	width: 90%;
+	border-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	float: left;
+}
+
+.container{
+	color: white;
+	font-weight: bolder;
+	margin-left: 10px;
+	margin-top: 50px;
+	border: solid;
+	width: 90%;
+	border-color: white;
+	padding: 2%;
+	border-radius: 10px;
+	float: left;
+}
+
+
+.footer a {
+    font-size: 20px;
+    color: #007a25;
+    text-decoration: none;
+}
+main{
+    margin:.5rem 1rem 0 1rem;
+}
+h2.bold-text{
+    font-weight: 900;
+}
+h2{
+    color: #007a25;
+    margin-bottom: 0;
+    font-weight: 800
+}
+
+h3{
+    color: #507134;
+    margin-bottom: 0;
+    margin-top:0;
+    font-weight: 500;
+}
+
+/* list */
+ul {
+    list-style: none;
+    padding-left: 17px;
+    padding-top: 1rem;
+}
+
+ul li::before {
+    content: "\2022"; 
+    color: #007a25; 
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+.form-section{
+    max-width: 400px;
+}
+.center-form{
+    background: #fff;
+    border: 0;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+/* Margins */
+.m-1{
+    margin: 1rem;
+}
+.mx-0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-2{
+    margin-top: 2rem;
+}
+
+.pt-1{
+    padding-top: 1rem;
+}
+
+.pb-h{
+    padding-bottom: 0.5rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+/* button */
+
+.kb-button {
+    cursor: pointer;
+    -webkit-transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* author content */
+.author-cont {
+    order: 0;
+    flex: 0 1 auto;
+    margin: 5px auto;
+}
+
+.author-cont p {
+    text-align: center;
+}
+
+.author-cont ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.author-cont ul li {
+    width: 70%;
+    padding: 5px;
+}
+
+.author-cont ul li a {
+    text-decoration: none;
+}
+
+.author-cont ul li a i {
+    padding-right: 2px;
+}
+
+.tint {
+    color: #303841;
+    font-weight: 700;
+}
+
+
+/* form */
+
+form {
+    order: 1;
+    flex: 0 1 auto;
+}
+
+fieldset {
+    border: 0;
+    padding: 1rem 2rem;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-left: 0;
+}
+input:focus{
+    outline: none;
+}
+.input-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+}
+
+button[value="submit"] {
+    width: 100%;
+    display: block;
+    background-color: #007a25;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+button[type="submit"]:hover {
+    color: #fff;
+}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    direction: ltr;
+    cursor: pointer;
+}
+
+.btn-input {
+    border: 1px solid #707070;
+    border-radius: 5px
+}
+
+.change,
+.delete {
+    padding: 5px;
+}
+
+.change {
+    background: orange;
+    border-color: orange;
+}
+
+.delete {
+    background: red;
+    border-color: red;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* display picture section */
+
+.dp-container>div {
+    max-width: 400px;
+}
+
+img#dp_result {
+    display: block;
+    max-width: 95%;
+    width: 500px;
+    height: auto;
+    margin: 25px auto;
+}
+
+.arrow-back {
+    position: absolute;
+    top: 33px;
+    left: 8%;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* download btn */
+
+.download-dp {
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    text-decoration: none;
+    font: menu;
+    display: block;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    letter-spacing: 0.05rem;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background: #007a25;
+    color: #fff;
+}
+
+
+.cropit-preview {
+    background: #F2F2F2;
+    background-size: cover;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+}
+
+.cropit-preview-image-container {
+    cursor: move;
+}
+
+.image-size-label {
+    margin-top: 10px;
+    color: #000;
+    margin-left: 7px;
+}
+
+input {
+    display: block;
+    margin-left: 7px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 10px;
+    width: 900px;
+}
+
+#result-data {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+
+
+    .d-flx{
+        display: flex;
+    }
+
+    .j-c-sb{
+        justify-content: space-between;
+    }
+
+    main{
+        margin: .75rem 1.5rem 0 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    main{
+        margin: 1rem 5rem 0 5rem;
+    }
+    .form-section{
+        max-width: 600px;
+    }
+}
+@media onlyscreen and (max-width: 800px) {
+   
+    .author-cont {
+        order: 1;
+        padding: 0 15px;
+    }
+    form {
+        order: 0;
+        width: 80%;
+    }
+    .author-cont p,
+    .author-cont ul li a {
+        text-align: center;
+    }
+    .arrow-back {
+        top: 16px;
+        left: 3%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .arrow-back {
+        top: 5px;
+        left: 3%;
+    }
+}
+
+.name {
+    font-family: "Caveat", cursive;
+}
