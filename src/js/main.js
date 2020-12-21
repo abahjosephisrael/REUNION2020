@@ -42,8 +42,8 @@ $(function() {
           <img id="dp_result" src=${url} title="Your DP"/>
           <br>
           <center class="center-form"><b>
-          Click the below copy button to copy and paste this text along with your generated Image on Social Platform<br>
-          </b><textarea id="inputco" style="margin: 0px; width: 350px; height: 70px;">I am attending GSSOSA 2014 SET REUNION 2020. #GSSOSA2014 #REUNION2020. Do not wait to be told the story. - Use https://gsso-reunion.netlify.app to Generate Your own I will there Image</textarea> 
+          Click the below copy button to copy and paste this text along with your generated Image on Social Platforms<br>
+          </b><textarea id="inputco" style="margin: 0px; width: 350px; height: 70px;">I will be attending GSSOSA 2014 SET REUNION 2020. #GSSOSA2014 #REUNION2020. Do not wait to be told the story. - Use https://gsso-reunion.netlify.app to confirm your presence and Generate your own Image</textarea> 
           <br>
           <button id="copy-button">Copy Text</button> </center>
           <br>
@@ -146,11 +146,6 @@ $(function() {
             ctx.drawImage(frameImg, 0, 0);
 
             ctx.drawImage(userImg, view.x, view.y, view.width, view.height);
-
-            //ctx.textBaseline = "bottom";e
-            //ctx.font = "bold 30px Arial";eeeee
-            //ctx.fillStyle = "#fff";e
-            //ctx.fillText("#TalkNow", 750, view.y + innerText.y);
 
             ctx.textBaseline = "top";
             ctx.textAlign = "left";
